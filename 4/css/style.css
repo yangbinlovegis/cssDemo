@@ -1,0 +1,301 @@
+div{
+    display: block;
+}
+.poi{
+    background-color: white;
+    width:640px;
+    min-height:1493px;
+}
+.poiNameFont{
+    font-family:华文细黑;
+}
+.poiDesc{
+    background-color: RGB(0,145,255);
+    height:220px;
+    color:white ;
+    display: flex;
+}
+.basicInfo{
+    font-size:40px;
+    padding:40px 100px 20px 0px;
+}
+.leftDist{
+    margin-left:30px;
+}
+.name{
+    margin-bottom: auto;
+}
+.star{
+    width:120px;
+    height:23px;
+    background: url("./../img/star1.PNG") ;
+    /*background-repeat:repeat-x;*/
+}
+.distance{
+    font-size:26px;
+    margin-top:40px;
+}
+.navi{
+    font-size:28px;
+    width:90px;
+    height:auto;
+    padding:40px 20px 40px 20px;
+    border-left: 2px solid white;
+    margin: 20px;
+}
+.naviArrow{
+    width:60px;
+    height:80px;
+    padding-bottom:15px;
+    background: url("./../img/navi.PNG") no-repeat 0 0;
+}
+.naviText{
+    width:90px;
+}
+.poiDetail{
+    min-height:150px;
+}
+.divBottomStyle{
+    border-bottom:20px solid RGB(246,246,246);
+}
+.position,
+.phone {
+    width:inherit;
+    padding:10px 0px;
+}
+.address,
+.telephone{
+    font-size:28px;
+    padding:10px 0px;
+}
+.picSize{
+    width:42px;
+    height:42px;
+}
+.sales{
+    padding:10px 0px;
+}
+.posPic,
+.telPic {
+    /*padding:0px 20px;*/
+    /*margin: 10px 0px;*/
+    /*padding:0px 20px;*/
+    margin: 10px 30px;
+}
+.addressText{
+    width:400px;
+    padding-right: 40px;
+}
+.address,
+.taoBaoInfo,
+.discount,
+.commentTitle{
+    width:610px;
+    border-bottom:1px solid RGB(238,238,238);
+}
+.address{
+    width:540px;
+}
+.posPic{
+    background: url("./../img/pos.PNG") no-repeat 0 0;
+}
+.telPic{
+    background: url("./../img/tel.PNG") no-repeat 0 0;
+}
+.arrowPic{
+    margin-left: 50px;
+    background: url("./../img/arrow1.PNG") no-repeat 0 0;
+}
+.displayFlex{
+    display: inline-flex;
+}
+.taoBaoInfo,
+.discount,
+.hotCommodity{
+    padding:20px 0px;
+}
+.tag{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin:10px 20px 10px 0px;
+    /*vertical-align: middle;*/
+}
+.taoBaoTag,
+.discountPic{
+    background-color: RGB(255, 85, 0);
+    line-height:32px;
+}
+.salesFont{
+    font-size:28px;
+}
+.shopDetail,
+.discountText{
+    vertical-align:middle;
+    padding:5px;
+}
+.intoShop{
+    margin:auto 20px auto 155px;
+    color:RGB(0,141,255);
+}
+.shopDetailTag{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+    background: url("./../img/arrow2.PNG") no-repeat 0 0;
+    margin:auto 0px;
+}
+.levelPic{
+    background: url("./../img/level.PNG") 0 0;
+    height:30px;
+    width:90px;
+    margin:10px 20px 10px 0px;
+}
+.shopLevel{
+    line-height:32px;
+}
+.shopLevel,
+.time_from,
+.monthlySales1,
+.monthlySales2,
+.monthlySales3{
+    font-size:25px;
+    color:RGB(176,176,176);
+}
+.percentText{
+    padding:10px 0px;
+}
+.percentNum{
+    font-family: arial;
+    color:red;
+    padding:10px 0px;
+}
+.goodSellers{
+    margin: auto 0px auto 210px;
+}
+.discountPic{
+    background-color:RGB(247,183,31);
+}
+.pic1,
+.pic2,
+.pic3{
+    width:180px;
+    height:180px;
+    position:relative;
+}
+.pic1{
+    background: url("./../img/pic1.PNG") no-repeat 0 0;
+}
+.pic2{
+    background: url("./../img/pic2.PNG") no-repeat 0 0;
+}
+.pic3{
+    background: url("./../img/pic3.PNG") no-repeat 0 0;
+}
+.monthlySales1,
+.monthlySales2,
+.monthlySales3{
+    width:200px;
+    height:32px;
+    margin:20px 0px 0px;
+    font-family:arial;
+}
+/*.month1,*/
+/*.monthSalesNum1{*/
+    /*vertical-align: middle;*/
+/*}*/
+.commodityName1,
+.commodityName2,
+.commodityName3{
+    font-size:10px;
+    font-weight:bold;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+.commodityName1{
+    color:RGB(0,0,0);
+}
+.commodityName2{
+    color:RGB(113,191,0);
+}
+.commodityName3{
+    color:RGB(125,64,45);
+}
+.price1,
+.price2,
+.price3{
+    position: absolute;
+    font-family:arial;
+    font-size:25px;
+    color: RGB(255,255,255);
+    bottom:1px;
+    right:2px;
+    background-color:RGB(122,122,118);
+    width:80px;
+    height:30px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+}
+.priceText1,
+.priceText2,
+.priceText3{
+    vertical-align: middle;
+}
+.commentTitle{
+    padding:20px 0px;
+}
+.comment_number{
+    /*line-height: 42px;*/
+    width:300px;
+    padding-right:400px;
+}
+.comDetailPic{
+    width:25px;
+    height:31px;
+    background:url("./../img/arrow3.PNG") no-repeat 0 0;
+    margin:auto 0;
+}
+.commenter{
+    padding:20px 0px 0px;
+}
+.commenter,
+.desc{
+    font-size:25px;
+    color:RGB(163,163,163);
+}
+.star,
+.commentLevel{
+    position:relative;
+    width:120px;
+    height:24px;
+    margin:auto 10px;
+}
+.star{
+    margin-top:20px;
+}
+.realStar,
+.realLevel{
+    position:absolute;
+    width:72px;
+    height:24px;
+}
+.realStar{
+    width:96px;
+}
+.commentLevel{
+    background:url("./../img/star4.PNG");
+}
+.realLevel{
+    background:url("./../img/star3.PNG");
+}
+.star{
+    background:url("./../img/star1.PNG");
+}
+.realStar{
+    background:url("./../img/star2.PNG");
+}

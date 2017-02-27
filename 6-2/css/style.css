@@ -1,0 +1,163 @@
+ad.context{
+    font-family:微软雅黑;
+    background-color:white;
+    height:1000px;
+    border-bottom:1px solid #eeeeee;
+}
+.navBar{
+    position:relative;
+    background: RGB(130,182,74);
+    height:60px;
+    font-size:25px;
+    color:white;
+    display: flex;
+}
+.icon{
+    vertical-align: middle;
+}
+.navHeader{
+    padding-left:150px;
+    margin-right:0px;
+}
+.iconFont{
+    font-weight:bold;
+}
+.navHeader,
+.navList,
+.searchBox,
+.userName,
+.number{
+    margin: auto 0;
+}
+
+.homepage,
+.video,
+.activity,
+.download{
+    padding:0px 25px;
+}
+.navList{
+    margin-left: 80px;
+    font-size:20px;
+    display: flex;
+}
+.search{
+    margin:0px 40px 0px 100px;
+    height:30px;
+    width:140px;
+    border-radius:15px;
+    border:0px;
+    text-align:left;
+    padding-left:16px;
+    background: url("./../img/search.png") no-repeat white left;
+}
+.number{
+    margin-left: 10px;
+    background-color: white;
+    font-size:10px;
+    border-radius: 10px;
+    height:15px;
+    width:25px;
+    border:0px;
+    color:RGB(130,182,74);
+    text-align: center;
+}
+.setAccountsText{
+    font-size:40px;
+    text-align: center;
+    margin:50px auto;
+}
+.detailInformation{
+    font-size:15px;
+}
+.personalInformation,.pic,.phone,.otherAccounts,.password,footer {
+    margin:auto 350px;
+}
+.basic{
+    margin:20px 0px;
+}
+.title{
+    display: flex;
+    background-color:#eeeeee;
+    width:673px;
+    height:50px;
+}
+.subject{
+    width:80px;
+    margin:auto 30px auto;
+}
+.fold{
+    margin:auto 10px auto 450px;
+}
+.foldPic,
+.unfoldPic{
+    margin:auto 0px;
+}
+.fontBold{
+    font-weight:bolder;
+}
+.row{
+    margin-left:50px;
+}
+.textField{
+    margin-left: 10px;
+    height:25px;
+    width:300px;
+}
+lable,select,input,option{
+    font-family:微软雅黑;
+    font-size:15px;
+}
+/*input{*/
+    /*color:lightgrey;*/
+/*}*/
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("./../img/select.png") no-repeat scroll right center transparent;
+    padding-right:14px;
+}
+select::-ms-expand{
+    display: none;
+}
+.choose{
+    height:30px;
+    width:304px;
+}
+fieldset{
+    border:none;
+    /*margin-bottom:0px;*/
+}
+footer{
+    font-family: 微软雅黑;
+    font-size:15px;
+    margin-top:30px;
+}
+a{
+    color:lightgrey;
+}
+.personalPic{
+    margin:25px 275px;
+}
+.realPic{
+    background: url("./../img/pic.png") no-repeat;
+    width:102px;
+    height:102px;
+}
+.uploadBtn{
+    width:102px;
+    height:30px;
+    border:none;
+    margin-top:20px;
+    text-align: center;
+}
+.saveInfo{
+    background-color: RGB(130,182,74);
+    color: white;
+    text-align: center;
+    border:none;
+    width:80px;
+    height:40px;
+    margin-left:50px;
+}

@@ -1,0 +1,46 @@
+
+.poi{
+    background-color: white;
+    width:640px;
+    min-height:1493px;
+}
+.poiBasicInfo{
+    background-color: RGB(0,145,255);
+    height:220px;
+    color:white ;
+    display: flex;
+}
+.poiFont{
+    font-family: 华文细黑;
+    font-size:35px;
+}
+.poi_name_distance{
+    margin:80px 240px 30px 30px;
+}
+.distToPoi{
+    padding:20px 0px;
+    display:flex;
+    line-height: 28px;
+    vertical-align: middle;
+}
+.dist{
+    font-family:Arial;
+}
+.distToPoi,
+.navigationText{
+    font-size:28px;
+}
+.navigation{
+    /*margin:50px 20px;*/
+    padding:0px 20px 0px 80px;
+    margin:50px 0px;
+    border-left:1px solid;
+}
+.navigationPic{
+    width:60px;
+    height:80px;
+    background: url("./../img/navi.png") no-repeat 0 0;
+    padding-bottom:10px;
+    color:lightgreen;
+
+}

@@ -1,0 +1,314 @@
+body{
+    /*background:#ffffff;*/
+}
+
+.context{
+    width: 640px;
+    overflow: hidden;
+    /* background:rgb(255, 193, 7); */
+    margin-left: 180px;
+}
+
+.context .more{
+    color: rgb(246, 113, 42);;
+}
+.highlight{
+    color:red;
+}
+.shops{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.shops>div{
+    margin-left: 25px;
+    /* background: #8BC34A; */
+}
+.shops>div:first-child{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 25px 20px 0;
+}
+
+.shops>div:last-child{
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.shops .basic .basic-picture{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: url("./../img/info.png") no-repeat 0 0;
+}
+.shops .basic .basic-picture .pic-number{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: white;
+    background-color: rgb(81, 62, 62);
+    border-radius: 4px;
+}
+
+.shops .basic .basic-describe{
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(128, 128, 128);
+}
+.shops .basic .basic-describe>div{
+    padding: 5px 0px;
+}
+
+.shops .title{
+    font-weight: bolder;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+}
+
+.shops .basic .basic-describe .star-grade{
+    background: url("../img/love.png") 0px 18px;
+    width: 104px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+span.h-star {
+    background: url("../img/love.png") 0px 0px;
+    height: 18px;
+    position: absolute;
+    width: 93.6px;
+}
+
+.shops .info>div:last-child{
+    border-bottom:none;
+}
+.shops .info .info-detail{
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px #ccc solid;
+}
+.shops .info .info-detail>div:first-child{
+    width: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+.shops .info .info-detail>div:nth-child(2){
+    width: 370px;
+    margin-right: 50px;
+}
+.shops .info .info-detail>div:last-child{
+    color: rgb(68,174,255);
+    margin: auto;
+    min-width: 70px;
+    text-align: right;
+}
+
+.shops .info .info-detail span{
+    font-size: 22px;
+}
+
+.shops .info .reservation span{
+    font-size: 28px;
+}
+.shops .info .take-out span{
+    font-size: 28px;
+}
+
+.context .tag{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.context .tag-order{
+    background-color: rgb(255, 69, 70);
+}
+
+.context .tag-tackout{
+    background-color: rgb(255, 165, 0);
+}
+
+.group-buying{
+    display: inline-flex;
+    margin: 20px 10px;
+}
+
+.group-buying .info{
+    font-size: 22px;
+    display: inline-flex;
+    width: 485px;
+    height: 105px;
+    /* background-color: #8BC34A; */
+    padding: 18px 18px 0 18px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.group-buying .info .detail-tag{
+    margin-right: 20px;
+}
+
+.group-buying .group-intro{
+    font-size: 26px;
+}
+
+.group-buying .group-intro>div:first-child{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:400px
+}
+.group-buying .info .group-price{
+    padding-top: 20px;
+}
+
+.group-buying .info .group-price>span:nth-child(2){
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.group-buying .info .group-price>span:last-child{
+    float: right;
+    color: #f6712a;
+}
+
+.list{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    /* background-color: #8BC34A; */
+}
+
+.list>div{
+    margin: 30px 0 0 25px;
+    padding: 0 25px 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.list>div:last-child{
+    border-bottom: none;
+}
+
+.list .list-head span{
+    font-size: 28px;
+}
+
+.list .list-head div{
+    float: right;
+}
+.list .list-head .number-back-color{
+    background-color: red;
+    border-radius: 12px;
+    padding: 4px;
+    color: white;
+}
+
+.list .describe{
+    font-size: 26px;
+    color: gray;
+}
+
+.list .time-and-source{
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.list .time-and-source>span{
+    padding-right: 10px;
+    color: gray;
+}
+
+.list .sub-title{
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 15px;
+}
+.explore>div{
+    display: block;
+    font-size: 28px;
+}
+
+.context a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.context a.text{
+    color: rgb(68,174,255);
+}
+
+.explore .source{
+    float: right;
+}
+
+.time-and-introduction .run-time>div{
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.time-and-introduction .more{
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.amap{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 20px;
+    /* background-color: rgb(139, 195, 74); */
+}
+
+.amap>div{
+    display: inline-flex;
+    border-right: 1px solid #ccc;
+    font-size: 28px;
+    width: 50%;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+
+.near{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    /* background-color: #8BC34A; */
+}
+
+.near .list-head{
+    font-size: 28px;
+    margin-left: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 20px 25px 0px;
+}
+.near .near-furniture{
+    padding-left: 30px;
+}
+
+.near .near-furniture>div{
+    display: inline-flex;
+    padding: 30px 20px;
+    border-right: 1px solid #ccc;
+}
+.near .near-furniture>div:last-child{
+    border: none;
+}
+.near .near-furniture .furniture>span:last-child{
+    display: flex;
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 26px;
+    color: gray;
+}
+
+.list-head>span:last-child{
+    float: right;
+}

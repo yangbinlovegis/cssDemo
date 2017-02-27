@@ -1,0 +1,65 @@
+.context{
+    //background-color: RGB(130,182,74);
+
+}
+.navMenu{
+    height: 60px;
+    background-color: RGB(130,182,74);
+    position:relative;
+}
+.pm{
+    margin-left: 50px;
+}
+/*span*/
+/*{*/
+    /*font-family: 微软雅黑 ;*/
+    /*font-size:20px;*/
+    /*font-style: inherit;*/
+    /*color: RGB(255,255,255);*/
+    /*line-height: 60px;*/
+/*}*/
+/*.pm,*/
+/*.homepage,*/
+/*.webActivity,*/
+/*.webVideo,*/
+/*.webDownload,*/
+/*.userName,*/
+/*.accessTimes{*/
+    /*margin-left: 20px;*/
+    /*font-family: 微软雅黑 ;*/
+    /*font-size:20px;*/
+    /*color: RGB(255,255,255);*/
+    /*line-height:60px; //垂直居中*/
+/*}*/
+/*.webLogo{*/
+         /*!*position: relative;*!*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*img: url("./../img/logo.png") no-repeat 0 0;*/
+/*}*/
+.menuList{
+    display: flex;
+    padding-left: 70px;
+    margin-left: 70px;
+    font-family: 微软雅黑 ;
+    font-size:20px;
+    color: RGB(255,255,255);
+    /*line-height:60px; //垂直居中*/
+}
+.searchBox{
+    border: 0px;
+    //background: lightgrey;
+    text-align: left;
+    font-size: 20px;
+    width:100px;
+    height:30px;
+    vertical-align: middle;
+    -webkit-border-radius:15px;
+    -moz-boder-radius:15px;
+    /*position:absolute;*/
+}
+.menuList span{
+    margin:0;
+    padding: 20px 10px;
+    vertical-align: middle;
+}

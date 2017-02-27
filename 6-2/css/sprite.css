@@ -1,0 +1,27 @@
+.icon{
+    position:relative;
+    display: inline-block;
+    background: url("./../img/icon.PNG") no-repeat top left;
+    min-height:18px;
+    min-width:14px;
+}
+.icon.foldPic{
+    background-position: 0 0;
+    width:24px;
+    height:33px;
+}
+.icon.unfoldPic{
+    background-position: -24px 0;
+    width:20px;
+    height:33px;
+}
+.icon.footerIcon{
+    background-position: -51px 0;
+    width:22px;
+    height:33px;
+}
+.icon.logo{
+    background-position: -80px 0;
+    width:40px;
+    height:32px;
+}
